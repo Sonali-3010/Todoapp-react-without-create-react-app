@@ -3,8 +3,16 @@
   "version": "1.0.0",
   "description": "Webpack trial 2, from Dhanush's suggested site",
   "main": "index.js",
+  "babel":{
+    "presets" : [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create": "webpack",
+    "start": "webpack-dev-server --open"
   },
   "keywords": [],
   "author": "Sonali",

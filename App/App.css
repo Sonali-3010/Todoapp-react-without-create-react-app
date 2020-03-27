@@ -1,0 +1,62 @@
+.TodoApp {
+  min-height: 100vh;
+  text-align: center;
+  background-color: #282c34;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.TodoApp-header {
+  display: flex;
+  flex-direction: column;
+  font-family:'Roboto',sans-serif;
+}
+
+ul {
+  list-style-type:none;
+}
+
+.Todo {
+  padding: 10px;
+  width: 90vw;
+  background-color: #373d48;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.TodoButton {
+  float: right;
+  width: 100px;
+  height: 35px;
+}
+
+.ActionBarButton{
+  width: 250px;
+  height: 35px;
+}
+
+button {
+  margin:0 0.3em 0.3em 0;
+  background-color: #282c34;
+  color: white;
+  cursor: pointer;
+  font-family:'Roboto',sans-serif;
+  font-size: 15px;
+  height: 30px;
+  transition: all 0.2s;
+}
+
+button:hover{
+  color:#000000;
+  background-color:#FFFFFF;
+  height: 38px;
+}
+
+.InputField{
+  width: 250px;
+  height: 25px;
+  font-size: 15px;
+  margin:0 0.3em 0.3em 0;
+}
+
